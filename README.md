@@ -13,4 +13,10 @@ To use
 ```
 load(FILENAME)
 ```
+to get a struct with fields:
+- **options** options used for ode23 solver
+- **pars** parameter values use for simulation
+- **t** time points
+- **x** variable values, NOTE: x(:,1) = x, x(:,2) = y, x(:,3) = z in Deng model equations
+- **x0** initial conditions
 ### figures/
