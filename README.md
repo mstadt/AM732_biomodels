@@ -9,7 +9,7 @@ This script can be used to simulate the model equations. The "user input" sectio
 ### simulation_results/
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
 
-To use
+Instructions: To use in MATLAB type
 ```
 load(FILENAME)
 ```
@@ -19,4 +19,5 @@ to get a struct with fields:
 - **t** time points
 - **x** variable values, NOTE: x(:,1) = x, x(:,2) = y, x(:,3) = z in Deng model equations
 - **x0** initial conditions
+
 ### figures/
