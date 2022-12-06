@@ -10,7 +10,7 @@ This script can be used to simulate the model equations. The "user input" sectio
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
 
 To use
-'''
+```
 load(FILENAME)
-'''
+```
 ### figures/
