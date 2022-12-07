@@ -8,7 +8,7 @@ clear all; close all;
 %% User Input
 %%------------------------
 % Set parameter values for the model equations
-pars.xi       = 0.1;    % default: 0.1
+pars.zeta     = 0.1;    % default: 0.1
 pars.ep       = 0.4;    % default: 0.4
 pars.beta1    = 0.3;    % default: 0.3
 pars.beta2    = 0.03;   % default: 0.03
@@ -65,7 +65,7 @@ function dxdt = RMfoodchainDeng(t,x,pars)
     x2 = x(2);
     x3 = x(3);
     dxdt = zeros(3,1);
-    dxdt(1) = (1/pars.xi)*x1*(1-x1-(x2/(pars.beta1 + x1)));
+    dxdt(1) = (1/pars.zeta)*x1*(1-x1-(x2/(pars.beta1 + x1)));
     dxdt(2) = x2*(x1/(pars.beta1 + x1) - pars.delta1 - x3/(pars.beta2 + x2));
     dxdt(3) = (pars.ep)*x3*(x2/(pars.beta2 + x2) - pars.delta2);
 end
