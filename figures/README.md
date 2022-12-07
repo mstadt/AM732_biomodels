@@ -1,1 +1,11 @@
 # Figures Details
+-**Fig1xi0.1** 
+-**Fig1xi0.2**
+-**Fig1xi0.3**
+-**Fig1xi0.08**
+-**myfig6a**
+-**myfig6c**
+-**myfig6d**
+-**myfig6e**
+-**myfig6f**
+-**varyepsilon** Figure for varied values of the parameters epsilon and delta_2. We note that there were numerical issues for smaller epsilon values.
