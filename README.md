@@ -1,5 +1,5 @@
 # Rosenzweig-MacArthur food chain model
-These code files are used to explore the Rosenzweig-MacArthur food chain model as presented in Hek, JMB, 2010 for the AM 732 Fall 2022 group project for Amelia, Zara, and Melissa.
+These code files are used to explore the Rosenzweig-MacArthur food chain model as presented in [Hek, 2010](https://link.springer.com/article/10.1007/s00285-009-0266-7) for the AM 732 Fall 2022 group project by Amelia, Zara, and Melissa.
 
 This is based on the model given in [Deng, 2001](https://aip.scitation.org/doi/abs/10.1063/1.1396340).
 
