@@ -12,7 +12,7 @@ clear all; close all; % clear workspace
 % sim_file is the filename where simulation results are stored
 % EX:'./simulation_results/06-Dec-2022_RMmodel_notes-originalparams.mat'
 % change for desired simulation
-sim_file = '07-Dec-2022_RMmodel_notes-ep=0.2_delta2=0.82.mat' %'./simulation_results/07-Dec-2022_RMmodel_notes-delta2=082.mat'; 
+sim_file = './simulation_results/07-Dec-2022_RMmodel_notes-delta2=082.mat'; 
 
 % pick start and end time for simulation plots
 % NOTE: ensure that end_time < tend from the simulations

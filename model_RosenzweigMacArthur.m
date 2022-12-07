@@ -12,11 +12,11 @@ clear all; close all;
 %%------------------------
 % Set parameter values for the model equations
 pars.zeta     = 0.1;    % default: 0.1
-pars.ep       = 0.2; %0.4;    % default: 0.4
+pars.ep       = 0.4;    % default: 0.4
 pars.beta1    = 0.3;    % default: 0.3
-pars.beta2    = 0.0290; %0.03;   % default: 0.03
+pars.beta2    = 0.03;   % default: 0.03
 pars.delta1   = 0.1;    % default: 0.1
-pars.delta2   = 0.8200; %0.6975; % default: 0.6975
+pars.delta2   = 0.6975; % default: 0.6975
 
 % set inital conditions for model simulation
 x0 = 0.5*ones(3,1);
