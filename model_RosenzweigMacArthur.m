@@ -44,7 +44,7 @@ fprintf('** ODE system complete ** \n')
 %%------------------------------------
 %% Save Model Simulation Results
 %%------------------------------------
-savefile = input('Do you want to save the simulation results? (0 - no, 1 - yes)');
+savefile = input('Do you want to save the simulation results? (0 - no, 1 - yes)   ');
 if savefile
    % user input a string for simulation results file name
    notes = input('simulation notes: ');
