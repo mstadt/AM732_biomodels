@@ -1,6 +1,6 @@
 clear all; close all;
 
-dat = load('06-Dec-2022_RMmodel_notes-delta2=062.mat');
+dat = load('07-Dec-2022_RMmodel_notes-forpoincare-beta2=0029.mat');
 t = dat.t;
 x = dat.x;
 pars = dat.pars;
@@ -49,7 +49,7 @@ figure(2) % to recreate Fig. 6a from Hek
 betterplots
 plot3(x(startID:endID,3),x(startID:endID,1),x(startID:endID,2),'linewidth',lw) 
 hold on
-mesh(Z,X,Y)
+mesh(Z,X,Y, 'FaceAlpha', 0.8)
 plot3(z0, x0, y0)
 plot3(znull, xnull, ynull, 'Color', 'red')
 xlabel('z')
