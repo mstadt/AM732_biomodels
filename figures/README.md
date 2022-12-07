@@ -12,5 +12,5 @@ We conducted numerical simulations of the model given on the main page of this c
 - **varyepsilon** model solution values for varied values of epsilon. This is shown for two values of delta_2. Note that smaller values of epsilon lead to numerical issues.
 
 
-Here are any findings or details that we found interesting about these figures.
-- From looking at how the Deng model changed over time with different values of zeta, we found that as zeta increased, the number of peaks over 100 seconds for the prey function decreased. For the predator function, this number decreased as well, and for the top predator function, the number increased. Using the number of peaks as an informal substitute for the period of the function, we can say that as zeta increases, the change in prey and the change in predator both decrease while the change in the top predator increases.
+Here are some findings or details that we found interesting about these figures.
+- From looking at how the Deng model changed over time with different values of zeta, we found that as zeta increased, the number of peaks over 100 seconds for the prey function decreased. For the predator function, this number decreased as well, and for the top predator function, the number increased. Using the number of peaks as an informal substitute for the period of the function, we can say that as zeta increases, the frequency for prey and for predator both decrease while frequency for the top predator increases.
