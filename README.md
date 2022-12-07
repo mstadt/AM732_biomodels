@@ -4,7 +4,12 @@ These code files are used to explore the Rosenzweig-MacArthur food chain model a
 This is based on the model given in [Deng, 2001](https://aip.scitation.org/doi/abs/10.1063/1.1396340).
 
 ## modelcode.m
-This script can be used to simulate the model equations. The "user input" section can be used to change parameter values to explore the impact on changes in the system. User input option given to save simulation results to use for postprocessing.
+This script can be used to simulate the model equations. The "user input" section can be used to change parameter values to explore the impact on changes in the system. 
+User input option given to save simulation results to use for postprocessing.
+The script **postprocess_general.m** can then be used to generate plots of the saved simulation results.
+
+## postprocess_general.m
+This script can be used to make plots for a given simulation created by **modelcode.m**. User input consists of a file where simulation results are stored.
 
 ### simulation_results/
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
@@ -21,3 +26,4 @@ to get a struct with fields:
 - **x0** initial conditions
 
 ### figures/
+These are figures our group created based on the model code with various simulations.
