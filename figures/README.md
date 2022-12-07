@@ -1,4 +1,5 @@
 # Figures Details
+We conducted numerical simulations of the model given on the main page of this code. Here are the captions for each of the figures by their file names.
 - **Fig1xi0.1**
 - **Fig1xi0.2**
 - **Fig1xi0.3**
