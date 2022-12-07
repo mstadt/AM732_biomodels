@@ -26,4 +26,4 @@ to get a struct with fields:
 - **x0** initial conditions
 
 ### figures/
-These are figures our group created based on the model code with various simulations.
+These are figures our group created based on the model code with various simulations. Figure explanations are given in the folder README.
