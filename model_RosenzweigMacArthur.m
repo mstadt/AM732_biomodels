@@ -1,6 +1,9 @@
 %% AM 732 Group Project Model Code
 % This code can be used to solve the Rosenzweig-MacArthur
-% model as presented in the paper Deng, Chaos , 2001.
+% model as presented in the paper Deng, Chaos, 2001.
+
+% Simulation results can be saved and then figures made using the
+% postprocessing script.
 
 clear all; close all;
 
