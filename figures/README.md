@@ -1,9 +1,9 @@
 # Figures Details
 We conducted numerical simulations of the model given on the main page of this code. Here are the captions for each of the figures by their file names. The simulation values are listed in the simulation_results folder.
-- **Fig1xi0.08** Deng model time series plot with zeta = 0.08
-- **Fig1xi0.1** Deng model time series plot with zeta = 0.1
-- **Fig1xi0.2** Deng model time series plot with zeta = 0.2
-- **Fig1xi0.3** Deng model time series plot with zeta = 0.3
+- **Fig1zeta0.08** Deng model time series plot with zeta = 0.08
+- **Fig1zeta0.1** Deng model time series plot with zeta = 0.1
+- **Fig1zeta0.2** Deng model time series plot with zeta = 0.2
+- **Fig1zeta0.3** Deng model time series plot with zeta = 0.3
 - **myfig6a** Similar figure to Fig. 6a from Deng 2001
 - **myfig6c** Similar figure to Fig. 6c from Deng 2001
 - **myfig6d** Similar figure to Fig. 6d from Deng 2001
