@@ -28,5 +28,7 @@ to get a struct with fields:
 - **x** variable values, NOTE: x(:,1) = x, x(:,2) = y, x(:,3) = z in Deng model equations
 - **x0** initial conditions
 
+Note that the scripts **postprocess_general.m** and **postprocess_DengFig6a.m** can be used to make figures of the simulation results.
+
 ### figures/
 These are figures our group created based on the model code with various simulations. Figure explanations are given in the folder README.
