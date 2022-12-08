@@ -23,6 +23,3 @@ All figures except **myfig6a.fig** were made using the script **postprocess_gene
 - **ep=0.4delta2=0.7155.fig** Deng model 3D trajectory for epsilon = 0.4, delta_2 = 0.7155
 - **ep=0.4delta2=0.82.fig**   Deng model 3D trajectory for epsilon = 0.4, delta_2 = 0.82
 
-
-Here are some findings or details that we found interesting about these figures.
-- While epsilon is presented as a "small" parameter, the Deng 2001 paper presents epsilon as 0.4. As we decreased epsilon, the model eventually gets to a fixed point or runs into numerical problems.
