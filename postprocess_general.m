@@ -12,7 +12,7 @@ clear all; close all; % clear workspace
 % sim_file is the filename where simulation results are stored
 % EX:'./simulation_results/06-Dec-2022_RMmodel_notes-originalparams.mat'
 % change for desired simulation
-sim_file = './simulation_results/07-Dec-2022_RMmodel_notes-delta2=082.mat'; 
+sim_file = './simulation_results/06-Dec-2022_RMmodel_notes-tend-3000 zeta-0.3.mat'; 
 
 % pick start and end time for simulation plots
 % NOTE: ensure that end_time < tend from the simulations
@@ -45,6 +45,7 @@ endID    = find(t>end_time,1,'first');
 % print parameter values to command window for simulation
 fprintf('parameter values: \n')
 disp(pars)
+fprintf('NOTE: if xi shows as parameter, this is equal to zeta. This simulation was from an old code version \n')
 
 %%-----------------------------------------
 %% Make the figures
