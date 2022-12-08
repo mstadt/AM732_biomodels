@@ -51,7 +51,7 @@ x0 = linspace(0, 1, 100);
 y0 = (pars.beta1+x0).*(1-x0);
 z0 = (pars.beta1*pars.delta1 + pars.delta1*x0 - x0).*(pars.beta1*x0 + x0.^2 - pars.beta1 - pars.beta2 - x0)./(pars.beta1 + x0); 
 
-figure(2) % to recreate Fig. 6a from Hek
+figure(2) % to recreate Fig. 6a from Deng
 betterplots
 plot3(x(startID:endID,3),x(startID:endID,1),x(startID:endID,2),'linewidth',lw) 
 hold on
