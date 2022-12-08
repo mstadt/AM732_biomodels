@@ -10,7 +10,7 @@ clear all; close all; % clear workspace
 %% Begin User Input
 %%--------------------------------------
 % sim_file is the filename where simulation results are stored
-% EX:'./simulation_results/06-Dec-2022_RMmodel_notes-originalparams.mat'
+% EX:'./simulation_results/06-Dec-2022_RMmodel_notes-original.mat'
 % change for desired simulation
 sim_file = './simulation_results/06-Dec-2022_RMmodel_notes-original.mat'; 
 
