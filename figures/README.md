@@ -1,5 +1,6 @@
 # Figures Details
 We conducted numerical simulations of the model given on the main page of this code. Here are the captions for each of the figures by their file names. The simulation values are listed in the simulation_results folder.
+All figures except **myfig6a.fig** were made using the script **postprocess_general.m**.
 - **Fig1zeta0.08.fig** Deng model time series plot with zeta = 0.08
 - **Fig1zeta0.1.fig** Deng model time series plot with zeta = 0.1
 - **Fig1zeta0.2.fig** Deng model time series plot with zeta = 0.2
