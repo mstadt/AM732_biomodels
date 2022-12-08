@@ -31,4 +31,4 @@ to get a struct with fields:
 Note that the scripts **postprocess_general.m** and **postprocess_DengFig6a.m** can be used to make figures of the simulation results.
 
 ### figures/
-These are figures our group created based on the model code with various simulations. Figure explanations are given in the folder README.
+These are figures our group created based on the model code with various simulations. Figures were created using **postprocess_general.m** except for one figure that was created using **postprocess_DengFig6a.m**. Figure explanations are given in the folder README. 
