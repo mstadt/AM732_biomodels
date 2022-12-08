@@ -22,7 +22,7 @@ Instructions: To use in MATLAB type
 load(FILENAME)
 ```
 to get a struct with fields:
-- **options** options used for ode23 solver
+- **options** options used for ode23s solver, NOTE: this problem tends to be stiff, thus a stiff solver is required
 - **pars** parameter values use for simulation
 - **t** time points
 - **x** variable values, NOTE: x(:,1) = x, x(:,2) = y, x(:,3) = z in Deng model equations
