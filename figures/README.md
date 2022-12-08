@@ -25,5 +25,4 @@ All figures except **myfig6a.fig** were made using the script **postprocess_gene
 
 
 Here are some findings or details that we found interesting about these figures.
-- From looking at how the Deng model changed over time with different values of zeta, we found that as zeta increased, the number of peaks over 100 seconds for the prey function decreased. For the predator function, this number decreased as well, and for the top predator function, the number increased. Using the number of peaks as an informal substitute for the period of the function, we can say that as zeta increases, the frequency for prey and for predator both decrease while frequency for the top predator increases.
 - While epsilon is presented as a "small" parameter, the Deng 2001 paper presents epsilon as 0.4. As we decreased epsilon, the model eventually gets to a fixed point or runs into numerical problems.
