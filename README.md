@@ -11,7 +11,10 @@ The script **postprocess_general.m** can then be used to generate plots of the s
 ## postprocess_general.m
 This script can be used to make plots for a given simulation created by **modelcode.m**. User input consists of a file where simulation results are stored.
 
-### simulation_results/
+## postprocess_DengFig6a
+This script can be used to regenerate Figure 6a from Deng 2001.
+
+## simulation_results/
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
 
 Instructions: To use in MATLAB type
@@ -19,11 +22,13 @@ Instructions: To use in MATLAB type
 load(FILENAME)
 ```
 to get a struct with fields:
-- **options** options used for ode23 solver
+- **options** options used for ode23s solver, NOTE: this problem tends to be stiff, thus a stiff solver is required
 - **pars** parameter values use for simulation
 - **t** time points
 - **x** variable values, NOTE: x(:,1) = x, x(:,2) = y, x(:,3) = z in Deng model equations
 - **x0** initial conditions
 
-### figures/
-These are figures our group created based on the model code with various simulations. Figure explanations are given in the folder README.
+Note that the scripts **postprocess_general.m** and **postprocess_DengFig6a.m** can be used to make figures of the simulation results.
+
+## figures/
+These are figures our group created based on the model code with various simulations. Figures were created using **postprocess_general.m** except for one figure that was created using **postprocess_DengFig6a.m**. Figure explanations are given in the folder README. 
