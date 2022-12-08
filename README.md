@@ -16,6 +16,7 @@ This script can be used to regenerate Figure 6a from Deng 2001.
 
 ## simulation_results/
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
+Note: previous version let zeta = xi so parameter names that say xi actually mean zeta.
 
 Instructions: To use in MATLAB type
 ```
