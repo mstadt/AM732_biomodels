@@ -14,6 +14,10 @@ We conducted numerical simulations of the model given on the main page of this c
 - **ep=0.2delta2=0.82.fig**   Deng model 3D trajectory for epsilon = 0.2, delta_2 = 0.82
 - **ep=0.3delta2=0.6975.fig** Deng model 3D trajectory for epsilon = 0.3, delta_2 = 0.6975
 - **ep=0.3delta2=0.7155.fig** Deng model 3D trajectory for epsilon = 0.3, delta_2 = 0.7155
+- **ep=0.3delta2=0.82.fig**   Deng model 3D trajectory for epsilon = 0.3, delta_2 = 0.82
+- **ep=0.4delta2=0.6975.fig** Deng model 3D trajectory for epsilon = 0.4, delta_2 = 0.6975
+- **ep=0.4delta2=0.7155.fig** Deng model 3D trajectory for epsilon = 0.4, delta_2 = 0.7155
+- **ep=0.4delta2=0.82.fig**   Deng model 3D trajectory for epsilon = 0.4, delta_2 = 0.82
 
 
 Here are some findings or details that we found interesting about these figures.
