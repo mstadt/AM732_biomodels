@@ -12,7 +12,7 @@ The script **postprocess_general.m** can then be used to generate plots of the s
 This script can be used to make plots for a given simulation created by **modelcode.m**. User input consists of a file where simulation results are stored.
 
 ## postprocess_DengFig6a
-This script can be used to regenerate Figure 6a from Deng 2001.
+This script can be used to regenerate Figure 6a from Deng 2001. Additonally, nullclines and mesh can be computed for varied parameter values based on given simulation results.
 
 ## simulation_results/
 This directory contains .mat files of simulation results used from modelcode.m with varied parameter values.
